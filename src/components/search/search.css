@@ -1,0 +1,21 @@
+.search-form {
+  display: flex;
+  position: fixed;
+  right: 0;
+}
+
+.search-form-input{
+  font-size:var(--font-medium);
+  height:25px;
+  border: 6px solid #262626;
+}
+
+.search-form-button {
+  font-size: var(--font-medium);
+  height: 39px;
+  width: 34px;
+  margin: 0;
+  padding-top: 6px;
+  padding-left: 0px;
+  background: #262626;
+}
