@@ -26,6 +26,7 @@ import ContentBy from './locale/by/architects.json';
 import ControlsRu from './locale/ru/controls.json';
 import TeamRu from './locale/ru/team.json';
 import ContentRu from './locale/ru/architects.json';
+import MainPage from './components/main-page/main-page';
 
 
 // <Architect data={TestArchitect} /> - passing single architect
@@ -77,10 +78,13 @@ class MainScreen extends Component {
         break;
     }
     this.handleClose();
+    console.log('rerendering...');
+    ReactDOM.unmountComponentAtNode(document.querySelector('body'));
     ReactDOM.render(<MainScreen />, document.querySelector('body'));
   }
 
   render() {
+    console.log(global.contentLang);
     const { anchorEl } = this.state;
     return <div class="page">
       <header>
@@ -121,6 +125,7 @@ class MainScreen extends Component {
 
       <main id="content">
         {/* <Map data={geo} /> */}
+        <MainPage />
       </main>
 
       <footer class="popup-container">
