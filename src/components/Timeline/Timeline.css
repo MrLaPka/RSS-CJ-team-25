@@ -1,7 +1,9 @@
 .timeline {
   position: relative;
   max-width: 1200px;
-  background-color: var(--main-bg-color)
+  background-color: var(--main-bg-color);
+
+  min-height: calc(100vh - var(--header-height));
   }
 
 .timeline * {
