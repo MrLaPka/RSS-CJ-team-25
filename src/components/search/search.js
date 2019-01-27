@@ -7,7 +7,7 @@ export default class Search extends Component {
     super(props);
     this.props = props;
     this.data = JSON.parse(JSON.stringify(this.props.data));
-    this.searchCallback = props.searchCallback;
+    this.searchCallback = this.props.searchCallback;
     this.state = {
       inputValue: '',
       isValueGetted: false,
@@ -24,7 +24,7 @@ export default class Search extends Component {
     });
   }
 
-  search() {
+  async search() {
     const result = [];
     if (this.state.inputValue.length === 0) return result;
     const searchString = this.state.inputValue.trim().toLowerCase();
@@ -38,10 +38,12 @@ export default class Search extends Component {
     return result;
   }
 
-  handleKeyPress(event) {
+  async handleKeyPress(event) {
     if (event.key === 'Enter' && this.state.isValueGetted === false) {
       this.setValueGetted();
-      if (this.searchCallback) this.searchCallback(this.search());
+      if (this.searchCallback) {
+        this.searchCallback(await this.search());
+      }
     }
   }
 
@@ -62,19 +64,19 @@ export default class Search extends Component {
 
   render() {
     return (
-      <form className = "search-form">
+      <form className="search-form">
         <input
-          value = {this.state.inputValue}
-          onKeyPress = {this.handleKeyPress}
-          onChange = {this.updateInputValue}
-          className = "search-form-input"
-          placeholder = "search"
+          value={this.state.inputValue}
+          onKeyPress={this.handleKeyPress}
+          onChange={this.updateInputValue}
+          className="search-form-input"
+          placeholder="search"
         />
         <button
-          onClick = {this.handleClick} 
-          className = "search-form-button header-link">
-            <Icon className="search-form-button-icon" >
-              search
+          onClick={this.handleClick}
+          className="search-form-button header-link">
+          <Icon className="search-form-button-icon" >
+            search
             </Icon>
         </button>
       </form>

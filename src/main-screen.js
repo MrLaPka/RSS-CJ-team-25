@@ -42,6 +42,8 @@ class MainScreen extends Component {
   }
 
   handleClick(e) {
+    e.preventDefault();
+    console.log('click');
     this.setState({ anchorEl: e.currentTarget });
   }
 
