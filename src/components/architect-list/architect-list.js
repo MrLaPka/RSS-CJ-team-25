@@ -11,10 +11,14 @@ class ArchitectList extends Component {
     ReactDOM.render(<Architect data={global.contentLang[i]} />, document.getElementById('content'));
   }
 
+  searchCallback(data) {
+    ReactDOM.render(<ArchitectList data={data} />, document.getElementById('content'));
+  }
+
   render() {
     return (
       <section className="architect-list">
-        <Search/>
+        <Search searchCallback={this.searchCallback} data={global.contentLang} />
         {this.props.data.map((element, index) => <Teammate data={element} isArchitect={true} onClick={() => this.renderClickedArchitect(index)} />)}
       </section>
     );
