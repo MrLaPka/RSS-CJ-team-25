@@ -70,7 +70,7 @@ export default class Search extends Component {
           onKeyPress={this.handleKeyPress}
           onChange={this.updateInputValue}
           className="search-form-input"
-          placeholder="search"
+          placeholder={global.controlsLang.main.search}
         />
         <button
           onClick={this.handleClick}

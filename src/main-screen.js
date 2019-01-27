@@ -126,7 +126,7 @@ class MainScreen extends Component {
 
       <main id="content">
         {/* <Map data={geo} /> */}
-        <MainPage />
+        <MainPage i={Math.floor(Math.random() * Math.floor(global.contentLang.length)) }/>
       </main>
 
       <footer class="popup-container">

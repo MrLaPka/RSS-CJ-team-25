@@ -11,14 +11,14 @@ class MainPage extends Component {
   }
 
   render() {
-    const currentArchitectIndex = Math.floor(Math.random() * Math.floor(global.contentLang.length));
+    const i = (new Date().getDate()) % global.contentLang.length;
     return (
-      <section className="main-page">
+      <section className="main-page" >
         <div class="main-page__content">
           <div class="main-page__text">
-            text here
+            {global.controlsLang.main.today}
           </div>
-          <Teammate isArchitect={true} onClick={() => this.renderClickedArchitect(currentArchitectIndex)} data={global.contentLang[currentArchitectIndex]} />
+          <Teammate isArchitect={true} onClick={() => this.renderClickedArchitect(i)} data={global.contentLang[i]} />
         </div>
       </section>
     );
