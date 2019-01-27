@@ -28,6 +28,8 @@
 }
 .modal
 {
+    max-height: 98vh;
+    max-width: 96vw;
     font-size: 1.5rem;
 
     display: flex;
@@ -44,7 +46,7 @@
     position: relative;
 }
 
-.modal__close { 
+.modal__close {
     font-size: var(--font-big);
     color: var(--font-color-white-gray);
 
