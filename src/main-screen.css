@@ -58,6 +58,10 @@ header {
 .lang-button {
   display: flex;
   font-size: var(--font-big);
+
+  position: absolute;
+  right: 5px;
+  top: 14px;
 }
 
 main {

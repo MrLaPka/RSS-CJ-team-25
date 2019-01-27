@@ -13,6 +13,7 @@ export default class ModalDialog extends Component {
 
   render() {
     return <div className="modal__screen" onClick={e => this.handleClick(e)}>
+      <div class="modal__blur"></div>
       <div className="modal">
         <div className="modal__close">×</div>
         {this.props.data}

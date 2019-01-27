@@ -90,7 +90,7 @@ class MainScreen extends Component {
           onClick={(e) => { this.handleClick(e); }}
           aria-owns={anchorEl ? 'simple-menu' : undefined}
           aria-haspopup='true'
-        ><Icon className="lang-button">language</Icon></button>
+        ><Icon>language</Icon></button>
         <Menu
           className='lang-menu'
           id='simple-menu'
