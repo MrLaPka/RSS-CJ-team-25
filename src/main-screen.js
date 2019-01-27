@@ -86,7 +86,6 @@ class MainScreen extends Component {
   }
 
   render() {
-    console.log(global.contentLang);
     const { anchorEl } = this.state;
     return <div class="page">
       <header>
