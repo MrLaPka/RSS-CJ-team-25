@@ -13,9 +13,10 @@ export default class Teammate extends Component {
       <article className="teammate" onClick={this.props.onClick}>
         <div className="teammate-photo">
           <PhotoAvatar alt={this.props.data.name} img={this.props.data.photo} />
+          <a href={this.props.data.github} className="teammate-link" target="_blank"></a>
         </div>
         <div className="teammate-about">
-          <h1 className={`teammate-caption ${this.props.isArchitect === true && 'teammate_architect-name'}`}>{this.props.data.name}</h1>
+          <h3 className={`teammate-caption ${this.props.isArchitect === true && 'teammate_architect-name'}`}>{this.props.data.name}</h3>
           <p className={`teammate-text ${this.props.isArchitect === true && 'teammate_architect-text'}`}>{this.props.data.about}</p>
         </div>
       </article>
