@@ -179,7 +179,8 @@
         "year": 1948,
         "photo": "./img/buildings/Karol_3.jpg"
       }
-    ]
+    ],
+    "videos": null
   },
   {
     "name": "Бакланов Михаил Иванович",
@@ -255,7 +256,8 @@
         "year": 1954,
         "photo": "./img/buildings/Baklanau_3.jpg"
       }
-    ]
+    ],
+    "videos": null
   },
   {
     "name": "Воинов Александр Петрович",
@@ -339,7 +341,8 @@
         "year": 1940,
         "photo": "./img/buildings/Vionau_3.jpg"
       }
-    ]
+    ],
+    "videos": null
   },
   {
     "name": "Заборский Георгий Владимирович",
@@ -403,7 +406,8 @@
         "year": 1953,
         "photo": "./img/buildings/Zaborskij_3.jpg"
       }
-    ]
+    ],
+    "videos": null
   },
   {
     "name": "Шабуневский Станислав Данилович",
@@ -463,7 +467,8 @@
         "year": 1909,
         "photo": "./img/buildings/Shabunevski_3.jpg"
       }
-    ]
+    ],
+    "videos": null
   },
   {
     "name": "Левин Леонид Менделевич",
@@ -515,7 +520,8 @@
         "year": 1967,
         "photo": "./img/buildings/Levin_3.jpg"
       }
-    ]
+    ],
+    "videos": null
   },
   {
     "name": "Парусников Михаил Павлович",
@@ -555,6 +561,7 @@
         "year": 1950,
         "photo": "./img/buildings/Parusnikau_3.jpg"
       }
-    ]
+    ],
+    "videos": null
   }
 ]

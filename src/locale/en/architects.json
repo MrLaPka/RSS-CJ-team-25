@@ -74,6 +74,7 @@
         "photo": "./img/buildings/Langbard_3.jpg"
       }
     ],
+    "videos": null,
     "geo": {
       "center": [
         55.666,
@@ -172,7 +173,8 @@
         "year": 1948,
         "photo": "./img/buildings/Karol_3.jpg"
       }
-    ]
+    ],
+    "videos": null
   },
   {
     "name": "Baklanau Mikhail Ivanavich",
@@ -248,7 +250,8 @@
         "year": 1954,
         "photo": "./img/buildings/Baklanau_3.jpg"
       }
-    ]
+    ],
+    "videos": null
   },
   {
     "name": "Voinau Alexander Petrovich",
@@ -332,7 +335,8 @@
         "year": 1940,
         "photo": "./img/buildings/Vionau_3.jpg"
       }
-    ]
+    ],
+    "videos": null
   },
   {
     "name": "Zaborsky Georgy Vladimirovich",
@@ -396,7 +400,8 @@
         "year": 1953,
         "photo": "./img/buildings/Zaborskij_3.jpg"
       }
-    ]
+    ],
+    "videos": null
   },
   {
     "name": "Shabunevsky Stanislav Danilovich",
@@ -456,7 +461,8 @@
         "year": 1909,
         "photo": "./img/buildings/Shabunevski_3.jpg"
       }
-    ]
+    ],
+    "videos": null
   },
   {
     "name": "Leonid Mendelevich Levin",
@@ -508,7 +514,8 @@
         "year": 1967,
         "photo": "./img/buildings/Levin_3.jpg"
       }
-    ]
+    ],
+    "videos": null
   },
   {
     "name": "Parusnikau Mikhail Pavlovich",
@@ -548,6 +555,7 @@
         "year": 1950,
         "photo": "./img/buildings/Parusnikau_3.jpg"
       }
-    ]
+    ],
+    "videos": null
   }
 ]

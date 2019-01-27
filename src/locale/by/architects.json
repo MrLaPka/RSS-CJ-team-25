@@ -179,7 +179,8 @@
         "year": 1948,
         "photo": "./img/buildings/Karol_3.jpg"
       }
-    ]
+    ],
+    "videos": null
   },
   {
     "name": "Бакланаў Міхал Іванавіч",
@@ -255,7 +256,8 @@
         "year": 1954,
         "photo": "./img/buildings/Baklanau_3.jpg"
       }
-    ]
+    ],
+    "videos": null
   },
   {
     "name": "Воінаў Аляксандр Пятровіч",
@@ -339,7 +341,8 @@
         "year": 1940,
         "photo": "./img/buildings/Vionau_3.jpg"
       }
-    ]
+    ],
+    "videos": null
   },
   {
     "name": "Заборскі Георгі Уладзіміравіч",
@@ -403,7 +406,8 @@
         "year": 1953,
         "photo": "./img/buildings/Zaborskij_3.jpg"
       }
-    ]
+    ],
+    "videos": null
   },
   {
     "name": "Шабунеўскi Стась Даніловіч",
@@ -463,7 +467,8 @@
         "year": 1909,
         "photo": "./img/buildings/Shabunevski_3.jpg"
       }
-    ]
+    ],
+    "videos": null
   },
   {
     "name": "Левін Леанід Мендзялевіч",
@@ -515,7 +520,8 @@
         "year": 1967,
         "photo": "./img/buildings/Levin_3.jpg"
       }
-    ]
+    ],
+    "videos": null
   },
   {
     "name": "Паруснікаў Міхал Паўлавіч",
@@ -555,6 +561,7 @@
         "year": 1950,
         "photo": "./img/buildings/Parusnikau_3.jpg"
       }
-    ]
+    ],
+    "videos": null
   }
 ]
