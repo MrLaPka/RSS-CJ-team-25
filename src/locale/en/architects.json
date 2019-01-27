@@ -1,84 +1,77 @@
 [
   {
-    "name": "Іосіф Лангабард",
+    "name": "Joseph Langbard",
     "about": "1882 - 1951",
     "photo": "./img/architects/Langbard.jpg",
     "timeline": [
       {
         "year": 1882,
-        "bio": "Іосіф Рыгоравіч Лангбард нарадзіўся ў горадзе Бельску былой Гарадзенскай губерні (цяпер тэрыторыя Польшчы)."
+        "bio": "Joseph G. Langbard was born in the town of Belsk in the former Grodno province (now the territory of Poland)."
       },
       {
         "year": 1901,
-        "bio": "З дзіцячых гадоў праяўлялы схільнасці да выяўленчай творчасці, пасля сканчэння ў 1901 годзе гімназіі ён прайшоў курс навучання на архітэктурным аддзяленні мастацкай вучэльні Грамадства вытанчаных мастацтваў у Адэсе."
+        "bio": "From childhood he showed aptitude for fine art, after graduating from high school in 1901, he completed a course in the architectural department of the Art School of the Society of Fine Arts in Odessa."
       },
       {
         "year": 1907,
-        "bio": "У 1907 годзе пераехаў у Пецярбург, дзе паступіў на архітэктурнае аддзяленне Акадэміі майстэрстваў. Падчас навучання працаваў памагатым архітэктара на розных будоўлях Пецярбурга."
+        "bio": "In 1907 he moved to St. Petersburg, where he entered the architectural department of the Academy of Arts. During his studies, he worked as an assistant architect at various construction sites in St. Petersburg."
       },
       {
         "year": 1914,
-        "bio": "У 1914 годзе І.Г.Лангбард завяршыў навучанне ў Акадэміі майстэрстваў. Напачатку Першай сусветнай вайны быў закліканы ў войска і пасля сканчэння вайскова-тэхнічных курсаў скіраваны служыць начальнікам інжынернага атрада, у якасці якога кіраваў будаваннем аб'ектаў у тыле і на фронце. Пры гэтым ён працягваў актыўна займацца праектаваннем грамадзянскіх будынкаў і нават браў удзел у конкурсах."
+        "bio": "In 1914, IG Langbard completed his studies at the Academy of Arts. At the beginning of the First World War, he was drafted into the army and after graduating from military technical courses he was sent to serve as the head of the engineering detachment, in which capacity he supervised the construction of facilities in the rear and at the front. However, he continued to actively engage in the design of civil buildings, and even participated in competitions."
       },
       {
         "year": 1918,
-        "bio": "Вясной 1918 года І.Г.Лангбард стаў вытворцам прац у будаўнічай канторы Петраградскага (пазней Ленінградскага) гарадскога аддзела аховы здароўя. У гэтай пасадзе ён прапрацаваў да 1932 года, калі быў прыцягнуты для праектавання і будавання шэрага буйных аб'ектаў у гарадах Беларусі, Украіны і іншых рэспублік Савецкага Саюза (СССР)."
+        "bio": "In the spring of 1918, IG Langbard became a producer in the construction office of the Petrograd (later Leningradsky) city health department. In this position, he worked until 1932, when he was involved in the design and construction of a number of large objects in the cities of Belarus, Ukraine and other republics of the Soviet Union (USSR)."
       },
       {
         "year": 1929,
-        "bio": "1930-я гады - найболей плённы перыяд творчасці І.Г.Лангбарда. Менавіта тым часам ён ужыццявіў свае найболей значныя праекты, што прынеслі яму шырокую слыннасць не толькі сярод прафесіяналаў.І практычна тады ж пачынаецца яго чыннасць у Беларусі. Па даручэнні Рады Народных Камісараў (СНК) Беларускай Савецкай Сацыялістычнай Рэспублікі (БССР) І.Г.Лангбард браў удзел у будаванні 1 - вой Беларускай сельскагаспадарчай і прамысловай выставы ў Мінску (1929-1931 гг.).У 1929 годзе Цэнтральны Выканаўчы Камітэт (ЦВК) і СНК БССР праводзілі конкурс на лепшы праект галоўнага адміністрацыйнага будынка рэспублікі - Хаты ўрада. Пераможцам быў прызнаны І.Г.Лангбард, і ў 1930 годзе па яго праектных распрацоўках у Мінску пачалося будаванне будынка, завершанае ў 1934 годзе."
+        "bio": "1930-ies-the most fruitful period of creativity I. G. Langbard. It was at this time that he carried out his most significant projects, which brought him wide fame not only among professionals.And almost at the same time his activity in Belarus begins. On behalf of the Council of people's Commissars (SNK) of the Belarusian Soviet Socialist Republic (BSSR), I. G. Langbard participated in the construction of the 1st Belarusian agricultural and industrial exhibition in Minsk (1929-1931).In 1929 the Central Executive Committee (CEC) and SNK BSSR held a competition for the best project of the main administrative building of the Republic - the government House. The winner was I. G. Langbard, and in 1930 the construction of the building, completed in 1934, began in Minsk according to his design developments."
       },
       {
         "year": 1934,
-        "bio": "Дом ўрада ў Мінску - не толькі адно з лепшых твораў І.Г.Лангбарда. Гэта збудаванне лічыцца ўзорам архітэктурнай творчасці той эпохі. Адзначаючы выбітныя заслугі ў праектаванні Хаты ўрада і ў кіраўніцтве яго будаваннем і архітэктурна-мастацкім афармленнем, урад Беларусі ў лютым 1934 года прысвоіла дойліду званне Заслужанага дзеяча мастацтваў і архітэктуры БССР."
+        "bio": "The government house in Minsk is not only one of the best creations Of I. G. Langbard. This building is considered a model of architectural creativity of the era. Noting the outstanding achievements in the design of the government House and in the management of its construction and architectural design, the government of Belarus in February 1934 awarded the title of honored architect of the arts and architecture of the BSSR."
       },
       {
         "year": 1935,
-        "bio": "Ён спраектаваў многія элементы фасада галоўнага корпуса Акадэміі навук Беларусі ў Мінску (1935-1940 гг.), ужыццявіў рэканструкцыю будынка тэатра імя Янкі Купалы ў Мінску (1938 г,). Апроч таго, ім распрацаваны два праекты гледных збудаванняў: комплексу тэатра і кіно для Оршы(1930 г.) і абласнога драматычнага тэатра ў Магілёве (1939 г.), а таксама конкурсныя праекты будынкаў Цэнтральнага камітэта кампартыі бальшавікоў (ЦК КП(бы)) Беларусі ў Мінску і Магілёве (1938 г.)."
+        "bio": "He designed many elements of the facade of the main building of the Academy of Sciences of Belarus in Minsk (1935-1940), reconstructed the building Of the Yanka Kupala theater in Minsk (1938). In addition, he developed two projects of entertainment facilities: the theater and cinema complex for Orsha(1930) and the regional drama theater in Mogilev (1939), as well as competitive projects of the buildings of the Central Committee of the Bolshevik Communist party (CC KP(b)) of Belarus in Minsk and Mogilev (1938)."
       },
       {
         "year": 1941,
-        "bio": "Пачатак Вялікай Айчыннай вайны заспеў І.Г.Лангбарда ў сталіцы Беларусі, куды ён напярэдадні прыехаў для развязка пытанняў, злучаных з будаваннем Хаты Чырвонай Арміі. Яму атрымалася вярнуцца ў Ленінград пад канец чэрвеня 1941 года і ён адразу ж уключыўся ў працу па маскаванні найважных аб'ектаў і збудаванняў горада, а ўвосень працягнуў выкладанне ў Акадэміі майстэрстваў. У лютым 1942 года разам з групай выкладнікаў ён быў эвакуяваны ў Ярославльскую вобласць, дзе жыў у былым маёнтку Н.А.Някрасава Чырвоныя ткачы. І ў гэты перыяд І.Г.Лангбард не парываў сувязь з Беларуссю: ізноў усталяваў кантакты з кіраваннем Звязу архітэктараў Беларусі, імкнуўся ўнесці свой унёсак у аднаўленне рэспублікі. Ён пісаў: «Цешуся таму, што Беларускае аддзяленне СЦУЧЫ [Звязу савецкіх архітэктараў] пачынае ажываць. Чым змагу быць карысны - да Вашых паслуг... Само сабою разумеецца, што, апроч вялікага манумента для Беларусі - героям Айчыннай вайны, патрэбен цэлы шэраг помнікаў на месцах буйных баёў у памяць загінулых герояў. Я цяпер над гэтым таксама працую па асабістай ініцыятыве і магу з Вамі падзяліцца матэрыяламі. У іншых лістах ён адзначаў: Дзякуй за [газету] «Савецкую Беларусь», яна мне напамінае мінулае і мацуе веру ў будучыню. Па Вашай прапанове маю магчымасць выканаць наступныя працы:1. Дублікаты праектаў і малюнкаў будынкаў, пабудаваных па маіх праектах у г. Мінску. 2. Праекты помнікаў героям Айчыннай вайны. 3. Апроч гэтага, ведаючы добра даваенны Мінск і маючы вялікі практычны досвед у выкарыстанні і аднаўленні старых пабудоў, я мог бы з карысцю браць удзел у складанні плана аднаўлення г. Мінска.»"
+        "bio": "The beginning of the great Patriotic war found I. G. Langbard in the capital of Belarus, where he had come the day before to resolve issues related to the construction of the house of the red Army. He was able to return to Leningrad at the end of June 1941 and he immediately joined the work of masking the most important objects and structures of the city, and in the autumn continued teaching at the Academy of arts. In February 1942 together with a group of teachers he was evacuated to the area in Jaroslaw, where he lived in the former estate of N..Nekrasov, Krasnye Tkachi. And During this period, I. G. Langbard did not break the connection with Belarus: he again established contacts with the Board of the Union of architects of Belarus, sought to contribute to the restoration of the Republic. He wrote: «I am Glad that the Belarusian branch of the SSA [Union of Soviet architects] is beginning to revive. What can be useful - at your service... It goes without saying that, in addition to a large monument for Belarus - the heroes of the Patriotic war, we need a number of monuments on the ground of major battles in memory of the fallen heroes. I am also working on this on my own initiative and I can share the materials with you. In other letters, he noted: Thank you for [the newspaper] «Soviet Belarus», it reminds me of the past and strengthens faith in the future. At Your suggestion, I have the opportunity to perform the following work: 1. Duplicates of projects and drawings of buildings built according to my projects in Minsk. 2. Projects of monuments to the heroes of the Patriotic war. 3. In addition, knowing well the pre-war Minsk and having extensive practical experience in the use and restoration of old buildings, I could usefully participate in the preparation of the plan for the restoration of Minsk.»"
       },
       {
         "year": 1944,
-        "bio": "У жніўні 1944 года пасля вызвалення Мінска ад нямецкай акупацыі І.Г. Лангбард увайшоў у склад камісіі Камітэта па справах архітэктуры пры СНК СССР, якая займалася пытаннямі аднаўленнем сталіцы Беларусі.Разам з беларускімі архітэктарамі браў удзел у распрацоўцы эскіза планавання Мінска, што з'явіўся грунтам новага генеральнага плана горада, узначаліў першую майстэрню, створаную пры Кіраванні па справах архітэктуры пры СНК БССР, у якой рыхтавалася праектная дакументацыя па рэканструкцыі разбураных жылых хат і грамадскіх збудаванняў. Апроч таго, І.Г.Лангбард сам кіраваў працамі па аднаўленні будынкаў, пабудаваных у даваенныя гады па яго праектах: Тэатра оперы і балета, Акруговай Хаты афіцэраў, Акадэміі навук."
+        "bio": "In August 1944, after the liberation of Minsk from German occupation, I. G. Langbard joined the Commission Of the Committee on architecture under the SNK of the USSR, dealing with the restoration of the capital of Belarus.Together with Belarusian architects, he participated in the development of a sketch of the layout of Minsk, which was the basis of the new master plan of the city, headed the first workshop created by the Department of architecture at the SNK of the BSSR, in which the project documentation for the reconstruction of destroyed houses and public buildings was prepared. In addition, I. G. Langbard himself supervised the restoration of buildings built in the pre-war years on his projects: the Opera and ballet Theater, the District house of officers, the Academy of Sciences."
       },
       {
         "year": 1948,
-        "bio": "Супольна з архітэктарам М.І.Бакланавым быў складзены праект кінатэатра «Перамога», увасоблены ў жыццё ў 1948 годзе. І.Г.Лангбард браў удзел ва Ўсесаюзных конкурсах на распрацоўку праекта планаванні і забудовы цэнтра Мінска."
+        "bio": "Together with the architect M. I. Baklanov the project of cinema «Victory» was made, realized in 1948. I. G. Langbard took part in all-Union competitions for the development of the project planning and development of the center of Minsk."
       },
       {
         "year": 1949,
-        "bio": "У 1949 годзе ў звязку з 30-годдзем БССР дойлід быў узнагароджаны ордэнам «Знак Пашаны»."
+        "bio": "In 1949, in connection with the 30th anniversary of the BSSR the architect was awarded the order «badge of Honor»."
       },
       {
         "year": 1951,
-        "bio": "Памёр 3 студзеня 1951 года ў Ленінградзе."
+        "bio": "He died on 3 January 1951 in Leningrad."
       }
     ],
     "buildings": [
       {
-        "name": "Беларускі дзяржаўны тэатр оперы і балета(1936-1937 гг.)у Мінску",
+        "name": "Belarusian state Opera and ballet theatre (1936-1937)in Minsk",
         "year": 1937,
         "photo": "./img/buildings/Langbard_1.jpg"
       },
       {
-        "name": "Дом Чырвонай Арміі (цяпер Дом афіцэраў) (1934-1939 гг.) у Мінску",
+        "name": "House of the red Army (now house of officers) (1934-1939) in Minsk",
         "year": 1939,
         "photo": "./img/buildings/Langbard_2.jpg"
       },
       {
-        "name": "Дом Саветаў (1938-1939 гг.) У Магілёве",
+        "name": "House of Soviets (1938-1939) in Mogilev",
         "year": 1939,
         "photo": "./img/buildings/Langbard_3.jpg"
-      }
-    ],
-    "videos": [
-      {
-        "name": "Иосиф Лангбард: почему человек, подаривший архитектурное лицо Минску, был изгнан из города",
-        "videoId": "Gnhp2aayomE",
-        "duration": "13:47"
       }
     ],
     "geo": {
