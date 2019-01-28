@@ -12,7 +12,7 @@ export default class MediaButton extends Component {
     };
     const { data } = this.props;
 
-    if (this.props.type === 'videos' && (this.props.data.videos === 'null' || this.props.data.videos === undefined)) {
+    if (this.props.type === 'videos' && (this.props.data.videos === null || this.props.data.videos === undefined)) {
       this.setState({ className: 'hidden' });
     }
 
@@ -31,16 +31,16 @@ export default class MediaButton extends Component {
     return (
       <Fragment>
         <button
-          className = {this.state.className}
-          onClick = {this.onClick}>
+          className={this.state.className}
+          onClick={this.onClick}>
           <Icon>
             {this.props.icon}
           </Icon>
         </button>
         <Gallery
-          ref = {(CurrentGallery) => { this.gallery = CurrentGallery; }}
-          type = {this.props.type}
-          data = {this.props.data}
+          ref={(CurrentGallery) => { this.gallery = CurrentGallery; }}
+          type={this.props.type}
+          data={this.props.data}
         />
       </Fragment>
     );

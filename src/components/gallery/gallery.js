@@ -42,7 +42,7 @@ class Gallery extends Component {
         caption: `${data[rootKey][image].name}`,
       }));
     } if (itemType === 'videos') {
-      if (Object.prototype.hasOwnProperty.call(data, rootKey) && data[rootKey].length > 0) {
+      if (Object.prototype.hasOwnProperty.call(data, rootKey) && data[rootKey] > 0) {
         result = Object.keys(data[rootKey]).map(video => data[rootKey][video].videoId);
       }
     }
@@ -102,25 +102,25 @@ class Gallery extends Component {
 
   render() {
     return (
-    <Lightbox
-    items={{
-      type: this.state.itemType,
-      srcset: null,
-      items: this.state.sources,
-    }}
-    currentItem = {this.state.currentItem}
-    isOpen = {this.state.lightboxIsOpen}
-    onClickImage = {this.handleClickItem}
-    onClick = {this.onClick}
-    onClickItem ={this.onClick}
-    onTouchEnd = {this.onTouchEnd}
-    onClickNext = {this.gotoNext}
-    onClickPrev = {this.gotoPrevious}
-    onClickThumbnail = {this.gotoItem}
-    onClose = {this.closeLightbox}
-    showThumbnails = {this.props.showThumbnails}
-    imageCountSeparator = {'/'}
-    />
+      <Lightbox
+        items={{
+          type: this.state.itemType,
+          srcset: null,
+          items: this.state.sources,
+        }}
+        currentItem={this.state.currentItem}
+        isOpen={this.state.lightboxIsOpen}
+        onClickImage={this.handleClickItem}
+        onClick={this.onClick}
+        onClickItem={this.onClick}
+        onTouchEnd={this.onTouchEnd}
+        onClickNext={this.gotoNext}
+        onClickPrev={this.gotoPrevious}
+        onClickThumbnail={this.gotoItem}
+        onClose={this.closeLightbox}
+        showThumbnails={this.props.showThumbnails}
+        imageCountSeparator={'/'}
+      />
     );
   }
 }
