@@ -10,16 +10,16 @@ export default class Teammate extends Component {
 
   render() {
     return (
-      <article className="teammate" onClick={this.props.onClick}>
-        <div className="teammate-photo">
+      <article className={`teammate ${this.props.isArchitect === true && 'architect-link'}`} onClick={this.props.onClick}>
+        < div className="teammate-photo" >
           <PhotoAvatar alt={this.props.data.name} img={this.props.data.photo} />
           {this.props.isArchitect !== true && <a href={this.props.data.github} className="teammate-link" target="_blank"></a>}
-        </div>
+        </div >
         <div className="teammate-about">
           <h3 className={`teammate-caption ${this.props.isArchitect === true && 'teammate_architect-name'}`}>{this.props.data.name}</h3>
           <p className={`teammate-text ${this.props.isArchitect === true && 'teammate_architect-text'}`}>{this.props.data.about}</p>
         </div>
-      </article>
+      </article >
     );
   }
 }
