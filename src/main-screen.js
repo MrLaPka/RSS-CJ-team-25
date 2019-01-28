@@ -43,7 +43,6 @@ class MainScreen extends Component {
 
   handleClick(e) {
     e.preventDefault();
-    console.log('click');
     this.setState({ anchorEl: e.currentTarget });
   }
 
@@ -80,7 +79,6 @@ class MainScreen extends Component {
         break;
     }
     this.handleClose();
-    console.log('rerendering...');
     ReactDOM.unmountComponentAtNode(document.querySelector('body'));
     ReactDOM.render(<MainScreen />, document.querySelector('body'));
   }

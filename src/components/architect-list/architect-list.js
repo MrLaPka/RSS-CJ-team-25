@@ -19,7 +19,11 @@ class ArchitectList extends Component {
     return (
       <section className="architect-list">
         <Search searchCallback={this.searchCallback} data={global.contentLang} />
-        {this.props.data.map((element, index) => <Teammate data={element} isArchitect={true} onClick={() => this.renderClickedArchitect(index)} />)}
+        {this.props.data.map((element, index) => <Teammate
+          data={element}
+          isArchitect={true}
+          onClick={() => this.renderClickedArchitect(index)}
+        />)}
       </section>
     );
   }

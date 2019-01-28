@@ -21,16 +21,16 @@ export default class MediaButton extends Component {
     return (
       <Fragment>
         <button
-          className = "media-button header-link"
-          onClick = {this.onClick}>
+          className="media-button header-link"
+          onClick={this.onClick}>
           <Icon>
             {this.props.icon}
           </Icon>
         </button>
         <Gallery
-          ref = {(CurrentGallery) => { this.gallery = CurrentGallery; }}
-          type = {this.props.type}
-          data = {this.props.data}
+          ref={(CurrentGallery) => { this.gallery = CurrentGallery; }}
+          type={this.props.type}
+          data={this.props.data}
         />
       </Fragment>
     );

@@ -4,7 +4,6 @@ import './modal-dialog.css';
 
 export default class ModalDialog extends Component {
   handleClick(e) {
-    console.log(e.target.className);
     if (e.target.className === 'modal__screen'
       || e.target.className === 'modal__close') {
       ReactDOM.unmountComponentAtNode(document.querySelector('.popup-container'));
